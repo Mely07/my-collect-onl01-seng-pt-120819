@@ -9,6 +9,6 @@ def my_collect(collection)
 end
 
 arr = [1,2,3]
-my_collect(arr) do |val|
+puts my_collect(arr) do |val|
   val + 1
 end
