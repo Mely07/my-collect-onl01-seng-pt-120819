@@ -1,5 +1,5 @@
 def my_collect(collection)
-  new_collection = []
+  new_collection = [ ]
   i = 0
   while i < collection.length
     new_collection << yield(collection[i])
@@ -7,10 +7,3 @@ def my_collect(collection)
   end
   return new_collection
 end
-
-arr = [1,2,3]
-x = my_collect(arr) do |val|
-  val + 1
-end
-
-puts x
