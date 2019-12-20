@@ -7,3 +7,6 @@ def my_collect(collection)
   end
   return new_collection
 end
+
+arr = [1,2,3]
+my_collect(arr) do
