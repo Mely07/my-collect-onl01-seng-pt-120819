@@ -12,3 +12,5 @@ arr = [1,2,3]
 x = my_collect(arr) do |val|
   val + 1
 end
+
+puts arr
