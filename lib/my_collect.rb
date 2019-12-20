@@ -1,4 +1,4 @@
-def my_collection(collection)
+def my_collect(collection)
 
  i = 0
  while i < collection.length
@@ -6,7 +6,3 @@ def my_collection(collection)
       i = i + 1
     end
 end
-
-
-arr=['a', 'b', 'c']
-my_collection(arr)
