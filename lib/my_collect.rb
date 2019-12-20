@@ -9,4 +9,4 @@ end
 
 
 arr=['a', 'b', 'c']
-my_collection
+my_collection(arr)
