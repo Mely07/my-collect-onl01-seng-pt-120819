@@ -8,3 +8,5 @@ def my_collection(collection)
 end
 
 
+arr=['a', 'b', 'c']
+my_collection
